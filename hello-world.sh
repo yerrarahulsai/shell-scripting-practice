@@ -1,5 +1,6 @@
-#!/bin/bash 
+#!/bin/bash
 
-# Whereever you use this symbol, expect the first line
-#This is comment, cannot be executed
+#Except the first line, where ever we mention #
+#That is considered as comment
+
 echo "Hello World"
