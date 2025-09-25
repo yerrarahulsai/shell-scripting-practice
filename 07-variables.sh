@@ -17,3 +17,5 @@ TOTAL_TIME=$(($END_TIME-$START_TIME))
 
 # $(()) - Inside () does the arithmetic operation
 #  $() - Outside gets the output of the operation
+
+echo "Script executed in $TOTAL_TIME"
