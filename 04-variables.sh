@@ -14,3 +14,4 @@ echo "$PERSON2: I am learning shell scripting"
 # $2 variable will hold the second argument passed
 # These are called positional parameters
 # $1=Rahul, $2=Tony
+# If you donot pass any thing it will execute without displaying the values
