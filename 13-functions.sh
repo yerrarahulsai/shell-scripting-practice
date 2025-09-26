@@ -16,6 +16,7 @@ fi
 validate(){
     if [ $1 -ne 0 ]; then
         echo "Error: $2 Not installed successfully"
+        exit 1
     else
         echo "$2 Installed successfully" 
     fi
