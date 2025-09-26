@@ -3,7 +3,7 @@
 # To check weather a number is greater that 10
 read -p "Enter you number: " NUMBER
 
-if[ $NUMBER -gt 10]; then
+if [ $NUMBER -gt 10 ]; then
     echo "Given number is greater than 10 "
 else
     echo "Given number is less than 10"
