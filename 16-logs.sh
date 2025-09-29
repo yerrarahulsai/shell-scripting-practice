@@ -14,7 +14,7 @@ SCRIPT_NAME=$(echo $0 | cut -d "." -f1)
 LOG_FILE="$LOGS_FOLDER/$SCRIPT_NAME.log"
 
 if [ $USERID -ne 0 ]; then
-    echo "$R Error $N: Please run with root privilege"
+    echo -e "$R Error $N: Please run with root privilege"
     exit 1
 fi
 
